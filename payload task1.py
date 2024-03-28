@@ -5,7 +5,7 @@ import numpy as np
 img = cv2.imread('clock_tower.jpg')
 
 # Define binning factor
-binning_factor = 3
+binning_factor = 4
 
 # Perform pixel binning
 binned_img = cv2.resize(img, (img.shape[1] // binning_factor, img.shape[0] // binning_factor))
